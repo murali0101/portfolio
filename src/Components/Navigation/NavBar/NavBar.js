@@ -26,7 +26,7 @@ const NavBar = () => {
 
     useEffect(() => {
         window.addEventListener("resize", handleResize);
-        bodyScroll();
+        bodyScroll()
     }, [mobileMenu]);
 
     // To set state if NavBar grows

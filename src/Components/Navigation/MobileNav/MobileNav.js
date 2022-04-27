@@ -103,11 +103,11 @@ const MobileNav = ({
                             );
                         })}
                         <ul
-                            className={styles.mobileNavOverlayHidden}
+                            className={`${styles.mobileNavOverlayHidden} ${styles.socialContainer}`}
                             variants={mobileMenu}
                             inital={"open"}
                             animate={menuOpen ? "open" : "closed"}
-                            className={styles.socialContainer}
+                            // className={styles.socialContainer}
                         >
                             <NavSocial
                                 socialClass={""}

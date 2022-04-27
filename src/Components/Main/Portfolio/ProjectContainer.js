@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
 import whakaariSm from "../../../Assets/img/Portfolio items/lynda.png";
 import whakaariLg from "../../../Assets/img/Portfolio items/lynda.png";
-import pounamunuiSm from "../../../Assets/img/Portfolio items/youtube.png";
-import pounamunuiLg from "../../../Assets/img/Portfolio items/youtube.png";
-import newsAggregator from "../../../Assets/img/Portfolio items/foodApp.png";
+// import pounamunuiSm from "../../../Assets/img/Portfolio items/youtube.png";
+// import pounamunuiLg from "../../../Assets/img/Portfolio items/youtube.png";
+// import newsAggregator from "../../../Assets/img/Portfolio items/foodApp.png";
 import spacexSm from "../../../Assets/img/Portfolio items/sinkstore.png";
 import spacexLg from "../../../Assets/img/Portfolio items/sinkstore.png";
 
