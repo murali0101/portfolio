@@ -58,7 +58,7 @@ const ProjectItem = ({ data }) => {
                 <h1>Tech stack</h1>
                 
                <div className={styles.imageContainer}>
-                   {(data.tech).map((e,index)=>{
+                   {data.tech.map((e,index)=>{
                    return <img src={e} key={index} alt="" className={styles.image} />
                    })}
              </div>
