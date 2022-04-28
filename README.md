@@ -48,7 +48,8 @@
 
 <br/>
 
-![Screenshot 2022-03-18 223751](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3OamemQLq9o2aPzXpGEoQ1YWyJm1X_VKdTQ&usqp=CAU)
+
+![portfolio](https://user-images.githubusercontent.com/66964293/165698774-55289a07-3a32-4b42-bb65-9df40527d9ad.PNG)
 
 <br/>
 
