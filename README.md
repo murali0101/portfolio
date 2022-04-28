@@ -12,7 +12,7 @@
     Personal website showcasing my skills and latest projects!    
     <br />
     <br />
-    :round_pushpin:<a href="https://github.com/murali0101/portfolio.git">View Demo</a>
+    :round_pushpin:<a href="https://portfolio-murali-m-v.netlify.app/">View Demo</a>
   </p>
 </p>
 
@@ -95,7 +95,7 @@ Follow these steps to get a local copy up and running.
 <!-- USAGE EXAMPLES -->
 ## Usage :mag:
 
-:round_pushpin:<a href="https://github.com/murali0101/portfolio.git">View Live Demo Here!</a>
+:round_pushpin:<a href="https://portfolio-murali-m-v.netlify.app/">View Live Demo Here!</a>
 <br/>
 [![Portfolio gif][portfolio-gif]](src/Assets/img/gif.gif)
 
