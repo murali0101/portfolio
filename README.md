@@ -48,7 +48,6 @@
 
 <br/>
 
-![Screenshot 2022-03-18 223751](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3OamemQLq9o2aPzXpGEoQ1YWyJm1X_VKdTQ&usqp=CAU)
 
 <br/>
 
