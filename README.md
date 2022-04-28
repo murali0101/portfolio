@@ -49,6 +49,8 @@
 <br/>
 
 
+![portfolio](https://user-images.githubusercontent.com/66964293/165698774-55289a07-3a32-4b42-bb65-9df40527d9ad.PNG)
+
 <br/>
 
 I built this portfolio website as a showcase of my skills and projects. This website was originally built with HTML, CSS and Vanilla JS. As my learning journey has progressed, I've used this website as a testing ground for new technologies and will continue to test and implement more as my journey continues, so watch this space!
