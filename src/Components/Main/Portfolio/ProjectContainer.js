@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
-import whakaariSm from "../../../Assets/img/Portfolio items/lynda.png";
-import whakaariLg from "../../../Assets/img/Portfolio items/lynda.png";
-// import pounamunuiSm from "../../../Assets/img/Portfolio items/youtube.png";
-// import pounamunuiLg from "../../../Assets/img/Portfolio items/youtube.png";
-// import newsAggregator from "../../../Assets/img/Portfolio items/foodApp.png";
-import spacexSm from "../../../Assets/img/Portfolio items/sinkstore.png";
-import spacexLg from "../../../Assets/img/Portfolio items/sinkstore.png";
+import lyndaSm from "../../../Assets/img/Portfolio items/lynda.gif";
+import lyndaLg from "../../../Assets/img/Portfolio items/lynda.gif";
+import ticSm from "../../../Assets/img/Portfolio items/demo.gif";
+import ticLg from "../../../Assets/img/Portfolio items/demo.gif";
+import weather from "../../../Assets/img/Portfolio items/weather.gif";
+import sinkstoreSm from "../../../Assets/img/Portfolio items/sinkstore.gif";
+import sinkstoreLg from "../../../Assets/img/Portfolio items/sinkstore.gif";
 
 import ProjectItem from "./ProjectItem";
 
@@ -23,7 +23,7 @@ const ProjectContainer = () => {
   const { isLight } = useContext(ThemeContext);
   const projects = [
     {
-      image: [spacexSm, spacexLg],
+      image: [sinkstoreSm,sinkstoreLg],
       alt: "SkinStore.com_web_clone",
       heading: "SkinStore.com_web_clone",
       p1: "This is a clone of SkinStore.com, where we have used HTML, CSS, and Javascript to achieve this.",
@@ -34,38 +34,38 @@ const ProjectContainer = () => {
       tech: [html, css, js],
     },
     {
-      image: [whakaariSm, whakaariLg],
+      image: [lyndaSm, lyndaLg],
       alt: "lynda.com",
       heading: "lynda.com web clone",
       p1: "This is a clone of lynda.com, where we have used HTML, CSS, Javascript, Express, Node.JS, MongoDB ,React and Redux to achieve this.",
-      l1: "https://github.com/utukaule/linkedin-learning.git",
+      l1: "https://github.com/murali0101/Lynda.com_Clone-frontend-.git",
       a1: "Github page for a lynda project.",
-      l2: "https://linkedinlearning.netlify.app/",
+      l2: "https://lynda01.netlify.app/",
       a2: "lynda live website.",
-      tech: [html, css, js, react, expressjs, nodejs],
+      tech: [html, css, js, expressjs, nodejs],
     },
-    // {
-    //   image: [pounamunuiSm, pounamunuiLg],
-    //   alt: "Youtube web clone",
-    //   heading: "Youtube web clone",
-    //   p1: "Getting familiar with google APIs by creating this simple Youtube-like app, where users can search and stream Youtube videos. Using JS, HTML and CSS.",
-    //   l1: "https://github.com/AmbaliyaDhruv/YouTube_clone.github.io",
-    //   a1: "Github page for a project.",
-    //   l2: "https://ambaliyadhruv.github.io/YouTube_clone.github.io/",
-    //   a2: "Youtube clone web project live website.",
-    //   tech: [html, css, js],
-    // },
-    // {
-    //   image: [newsAggregator, newsAggregator],
-    //   alt: "Food App",
-    //   heading: "Food App",
-    //   p1: "A food search app, where users can search various dishes and get the full recipe of it and Implemented search functionality using JS debouncing to minimize the unnecessary api calls",
-    //   l1: "https://github.com/AmbaliyaDhruv/FoodApp",
-    //   a1: "Github page for a project.",
-    //   l2: "https://food-app-ambaliyadhruv.vercel.app/index.html",
-    //   a2: "Food App live website",
-    //   tech: [html, css, js],
-    // },
+    {
+      image: [ticSm, ticLg],
+      alt: "Tic Tac Toe",
+      heading: "Tic Tac Toe",
+      p1: "Tic-tac-toe is a game in which two players take turns in drawing either an '0' or an 'X' in one square of a grid consisting of nine squares.",
+      l1: "https://github.com/murali0101/tic-tac-toe-react.git",
+      a1: "Github page for a project.",
+      l2: "https://tic-tac-toe-02.netlify.app/",
+      a2: "Tic Tac Toe live website.",
+      tech: [html, css, js,react],
+    },
+    {
+      image: [weather, weather],
+      alt: "Weather App",
+      heading: "Weather App",
+      p1: "A Weather search app, where users can search various city weather and get the full  weather details of it.",
+      l1: "https://github.com/murali0101/Weather-Website.git",
+      a1: "Github page for a project.",
+      l2: "https://weather-01.netlify.app/",
+      a2: "Weather App live website",
+      tech: [html, css, js],
+    },
   ];
   return (
     <div className={`${styles.projectContainer} ${!isLight && styles.dark}`}>
