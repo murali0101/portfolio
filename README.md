@@ -98,7 +98,8 @@ Follow these steps to get a local copy up and running.
 
 :round_pushpin:<a href="https://portfolio-murali-m-v.netlify.app/">View Live Demo Here!</a>
 <br/>
-[![Portfolio gif][portfolio-gif]](src/Assets/img/gif.gif)
+
+![portfolio](https://user-images.githubusercontent.com/66964293/166096391-5bed4299-daaf-4c86-8f41-56770a341541.gif)
 
 
 <!-- CONTACT -->
