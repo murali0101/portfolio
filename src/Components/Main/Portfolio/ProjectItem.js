@@ -22,6 +22,8 @@ const ProjectItem = ({ data }) => {
                     </h3>
                     <h4 className={styles.projectOverlaySubHeader}>
                         {data.p1}
+                        <br/>
+                        {data.TechStack!=undefined?`${data.TechStack}`:null}
                     </h4>
                     <div>
                         <a
