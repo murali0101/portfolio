@@ -18,12 +18,14 @@ import js from "../../../Assets/img/logos/js.svg";
 import react from "../../../Assets/img/logos/react.svg";
 import nodejs from "../../../Assets/img/logos/nodejs.svg";
 import expressjs from "../../../Assets/img/logos/expressjs.svg";
+import mongodb from "../../../Assets/img/logos/mongodb.svg";
+import chakra from "../../../Assets/img/logos/chakra.png";
 
 const ProjectContainer = () => {
   const { isLight } = useContext(ThemeContext);
   const projects = [
     {
-      image: [sinkstoreSm,sinkstoreLg],
+      image: [sinkstoreSm, sinkstoreLg],
       alt: "SkinStore.com_web_clone",
       heading: "SkinStore.com_web_clone",
       p1: "This is a clone of SkinStore.com, where we have used HTML, CSS, and Javascript to achieve this.",
@@ -53,7 +55,7 @@ const ProjectContainer = () => {
       a1: "Github page for a project.",
       l2: "https://tic-tac-toe-02.netlify.app/",
       a2: "Tic Tac Toe live website.",
-      tech: [html, css, js,react],
+      tech: [html, css, js, react],
     },
     {
       image: [weather, weather],
@@ -65,6 +67,17 @@ const ProjectContainer = () => {
       l2: "https://weather-01.netlify.app/",
       a2: "Weather App live website",
       tech: [html, css, js],
+    },
+    {
+      image: [weather, weather],
+      alt: "E-Store App",
+      heading: "E-Store App",
+      p1: "This project is about building an online E-commerce web application with backend integration showing the functionalities of an e-commerce website like filtering the products , darkmode ,add to cart , wishlist etc...",
+      l1: "https://github.com/murali0101/E-Store-Front-End-",
+      a1: "Github page for a project.",
+      l2: "https://e-store-01.netlify.app/",
+      a2: "Weather App live website",
+      tech: [html, css, chakra, js, react, nodejs, expressjs, mongodb],
     },
   ];
   return (
