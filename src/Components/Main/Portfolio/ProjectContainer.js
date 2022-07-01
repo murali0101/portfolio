@@ -7,6 +7,10 @@ import ticLg from "../../../Assets/img/Portfolio items/demo.gif";
 import weather from "../../../Assets/img/Portfolio items/weather.gif";
 import sinkstoreSm from "../../../Assets/img/Portfolio items/sinkstore.gif";
 import sinkstoreLg from "../../../Assets/img/Portfolio items/sinkstore.gif";
+import e_storeLg from "../../../Assets/img/Portfolio items/e-store.png";
+import yooxLg from "../../../Assets/img/Portfolio items/yoox.png";
+import e_storesm from "../../../Assets/img/Portfolio items/e-store.png";
+import yooxsm from "../../../Assets/img/Portfolio items/yoox.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -20,10 +24,35 @@ import nodejs from "../../../Assets/img/logos/nodejs.svg";
 import expressjs from "../../../Assets/img/logos/expressjs.svg";
 import mongodb from "../../../Assets/img/logos/mongodb.svg";
 import chakra from "../../../Assets/img/logos/chakra.png";
+import redux from "../../../Assets/img/logos/redux.png";
 
 const ProjectContainer = () => {
   const { isLight } = useContext(ThemeContext);
   const projects = [
+    {
+      image: [e_storesm, e_storeLg],
+      alt: "E-Store App",
+      heading: "E-Store App",
+      p1: "This project is about building an online E-commerce web application with backend integration showing the functionalities of an e-commerce website like filtering the products , darkmode ,add to cart , wishlist etc...",
+      l1: "https://github.com/murali0101/E-Store-Front-End-",
+      a1: "Github page for a project.",
+      TechStack:"Tech Stack : React,Redux,JavaScript,Chakra UI,CSS,HTML,NodeJS,Express,MongoDB",
+      l2: "https://e-store-01.netlify.app/",
+      a2: "Weather App live website",
+      tech: [html, css, chakra, js, react,redux, nodejs, expressjs, mongodb],
+    },
+    {
+      image: [yooxsm, yooxLg],
+      alt: "YOOX-Clone",
+      heading: "YOOX-Clone",
+      p1: "This project is about building an online E-commerce web application with backend integration showing the functionalities of an e-commerce website like filtering the products , darkmode ,add to cart , wishlist etc...",
+     
+      l1: "https://github.com/Ritesh6997/YOOX_Clone_React",
+      a1: "Github page for a project.",
+      l2: "http://yoox-clone-react-six.vercel.app/",
+      a2: "Weather App live website",
+      tech: [html, css, chakra, js, react,redux,nodejs, expressjs, mongodb],
+    },
     {
       image: [sinkstoreSm, sinkstoreLg],
       alt: "SkinStore.com_web_clone",
@@ -67,17 +96,6 @@ const ProjectContainer = () => {
       l2: "https://weather-01.netlify.app/",
       a2: "Weather App live website",
       tech: [html, css, js],
-    },
-    {
-      image: [weather, weather],
-      alt: "E-Store App",
-      heading: "E-Store App",
-      p1: "This project is about building an online E-commerce web application with backend integration showing the functionalities of an e-commerce website like filtering the products , darkmode ,add to cart , wishlist etc...",
-      l1: "https://github.com/murali0101/E-Store-Front-End-",
-      a1: "Github page for a project.",
-      l2: "https://e-store-01.netlify.app/",
-      a2: "Weather App live website",
-      tech: [html, css, chakra, js, react, nodejs, expressjs, mongodb],
     },
   ];
   return (
